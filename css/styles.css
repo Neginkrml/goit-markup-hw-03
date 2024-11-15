@@ -1,7 +1,15 @@
+.head{
+    display: block
+}
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
+}
+.container{
+    width: 1158px; 
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -37,6 +45,7 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    margin-right: 76px;
 }
 .nav-hover :hover{
     color:#404bbf;   
@@ -134,6 +143,7 @@ body{
 }
 .our-team{
     background-color: #f4f4fd;
+    padding: 120px 0;
 }
 .team-heading{
     font-size: 36px;           
@@ -184,6 +194,8 @@ body{
 .portfolio-ul{
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .portfolio-li{
     width: calc((100% - 72px) / 4);
@@ -193,6 +205,8 @@ body{
     border: 1px solid #e7e9fc;
     border-top: non;
     margin-bottom: 8px;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .portfolio-about{
     font-size: 36px;
@@ -201,6 +215,7 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px
 }
 .banking_about{
     font-weight: 500;
