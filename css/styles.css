@@ -115,9 +115,10 @@ a{
     background-color: #404BBF;
 }
 .about-section{
+    background-color: #F4F4F4;
     padding: 120px 0;
 }
-h2 .visually-hidden {
+.visually-hidden {
     position: absolute; 
     width: 1px; 
     height: 1px; 
@@ -131,14 +132,11 @@ h2 .visually-hidden {
 .about-li{
     width: calc((100%-72px)/4);
     flex-basis: calc((100%-72px)/4);
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px; 
-    border-top-right-radius: 4px; 
-    border-bottom-left-radius: 4px;
 }
 .about-ul{
     display: flex;
     gap: 24px;
+    list-style: none;
 }
 .about-title{
     font-weight: 500;
@@ -147,6 +145,7 @@ h2 .visually-hidden {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    text-align: center;
 }
 .about-description{
     font-size: 16px;
@@ -169,21 +168,20 @@ h2 .visually-hidden {
 }
 .team-class{
     display: flex;
-    gap: 24px;  
+    gap: 24px; 
+    list-style: none; 
 }
 .team-employee{
     background-color: #FFFFFF;
     padding: 120px 0;
     width: calc((100%-72px)/4);
     flex-basis: calc((100%-72px)/4);
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px; 
-    border-top-right-radius: 4px; 
-    border-bottom-left-radius: 4px;
-}
-.employee-img{
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba (46, 47, 66, 0.08) ;
 }
+/* .employee-img{
+    border-radius: 0px 0px 4px 4px;
+} */
 .name-designation{
     padding: 32px 0;
 }
@@ -204,27 +202,28 @@ h2 .visually-hidden {
     text-align: center;
 }
 .our-portfolio{
-    padding: 120px 0;
-    margin-bottom: 72px;
-    column-gap: 24px;
-    row-gap: 48px;
+   background-color: #FFFFFF;
+   padding: 120px 0;
 }
 .portfolio-ul{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style: none;
 }
 .portfolio-li{
     width: calc((100%-72px)/4);
 }
 .portfolio-div{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    border-top: non;
-    margin-bottom: 8px;
     border-top: none;
     margin-bottom: 8px;
+    row-gap: 48px;
 }
 .portfolio-about{
     font-size: 36px;
@@ -241,6 +240,7 @@ h2 .visually-hidden {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .banking_app{
     font-size: 16px;
