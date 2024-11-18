@@ -118,7 +118,7 @@ a{
     background-color: #F4F4F4;
     padding: 120px 0;
 }
-.visually-hidden {
+.visually-hidden{
     position: absolute; 
     width: 1px; 
     height: 1px; 
@@ -146,6 +146,7 @@ a{
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: center;
+    width: calc((100% - 72px)/4);
 }
 .about-description{
     font-size: 16px;
@@ -224,6 +225,7 @@ a{
     border-top: none;
     margin-bottom: 8px;
     row-gap: 48px;
+    width: calc((100% - 72px)/4)
 }
 .portfolio-about{
     font-size: 36px;
