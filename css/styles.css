@@ -23,9 +23,13 @@ a{
 .header-div{
     display: flex;
 }
-.nav-header{
+header div nav{
     display: flex;
     align-items: center;
+}
+.nav-header{
+    /* display: flex;
+    align-items: center; */
     border-bottom: 1px solid #E7E9FC;
     display: flex;
     align-items: center;
@@ -111,12 +115,6 @@ a{
     border-radius: 4px;
     cursor: pointer;
 }
-.intro-section :hover{
-    background-color: #404BBF;
-}
-.intro-section :focus{
-    background-color: #404BBF;
-}
 .about-section{
     background-color: #F4F4F4;
     padding: 120px 0;
@@ -148,8 +146,8 @@ a{
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
-    text-align: center;
-    width: calc((100% - 72px)/4);
+    /* text-align: center;
+    width: calc((100% - 72px)/4); */
 }
 .about-description{
     font-size: 16px;
