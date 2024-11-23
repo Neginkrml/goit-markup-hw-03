@@ -22,6 +22,7 @@ a{
 }
 .header-div{
     display: flex;
+    padding: 0;
 }
 header div nav{
     display: flex;
@@ -34,6 +35,10 @@ header div nav{
     display: flex;
     align-items: center;
     justify-content:center;
+    /* text-decoration: none; */
+}
+.nav-header a{
+    text-decoration: none;
 }
 .nav-logo {
     font-family: "Raleway", sans-serif;
@@ -51,6 +56,7 @@ header div nav{
 .nav-hover{
     display: flex;
     gap: 40px;
+    list-style-type: none;
 }
 .nav-studio-link{
     font-weight: 500;
@@ -70,9 +76,14 @@ header div nav{
 .adress-ul{
     display: flex;
     gap: 40px;
+    list-style-type: none;
+    align-items: center;
 }
 .adress{
     font-style: normal;
+}
+.adress a{
+    text-decoration: none;
 }
 .address-mail-tel{
     font-size: 16px;
